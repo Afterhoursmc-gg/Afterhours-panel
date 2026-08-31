@@ -21,5 +21,6 @@ jobs:
         with:
           name: Afterhours-Panel-Windows
           path: |
+            src-tauri/target/release/afterhours-panel.exe
             src-tauri/target/release/bundle/nsis/*-setup.exe
             src-tauri/target/release/bundle/msi/*.msi
